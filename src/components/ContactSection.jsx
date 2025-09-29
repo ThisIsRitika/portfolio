@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { Send, Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
 import emailjs from "@emailjs/browser";
@@ -16,10 +17,10 @@ export const ContactSection = () => {
 
     emailjs
       .sendForm(
-        process.env.EMAILJS_SERVICE_ID,    
-        process.env.EMAILJS_TEMPLATE_ID,   
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,    
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,   
         form,
-        process.env.EMAILJS_PUBLIC_KEY     
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY     
       )
       .then(
         () => {
