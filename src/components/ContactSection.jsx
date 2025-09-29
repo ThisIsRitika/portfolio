@@ -16,10 +16,10 @@ export const ContactSection = () => {
 
     emailjs
       .sendForm(
-        "service_pcdlmoc",    
-        "template_wq9lqoa",   
+        process.env.EMAILJS_SERVICE_ID,    
+        process.env.EMAILJS_TEMPLATE_ID,   
         form,
-        "HSfAr4snaL5KpMjXz"     
+        process.env.EMAILJS_PUBLIC_KEY     
       )
       .then(
         () => {
