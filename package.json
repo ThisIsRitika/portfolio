@@ -31,5 +31,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "vite": "^7.1.7"
-  }
+  },
+  "homepage": "https://thisisritika.github.io/portfolio"
+
 }
