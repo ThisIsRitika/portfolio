@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Travel Accommodation Booking Platform",
+    description: "Wanderlust is a platform for booking and hosting travel stays.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Node.js", "Express", "ejs"],
+    demoUrl: "https://wanderlust-goj2.onrender.com/listings",
+    githubUrl: "https://github.com/ThisIsRitika/WanderLust",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "SaaS Code Editor",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Scriptly is an online code editor for writing, running, and sharing code seamlessly.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Next.js", "Typescript"],
+    demoUrl: "https://scriptlyyy.vercel.app/",
+    githubUrl: "https://github.com/ThisIsRitika/Scriptlyyy",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Personal Portfolio",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A personal portfolio showcasing my skills, projects, and professional experience.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["React", "tailwind css"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ThisIsRitika/portfolio",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/ThisIsRitika"
           >
             Check My Github <ArrowRight size={16} />
           </a>
