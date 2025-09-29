@@ -16,10 +16,10 @@ export const ContactSection = () => {
 
     emailjs
       .sendForm(
-        "service_pcdlmoc",    // replace with your Service ID
-        "template_wq9lqoa",   // replace with your Template ID
+        "service_pcdlmoc",    
+        "template_wq9lqoa",   
         form,
-        "HSfAr4snaL5KpMjXz"     // replace with your Public Key
+        "HSfAr4snaL5KpMjXz"     
       )
       .then(
         () => {
