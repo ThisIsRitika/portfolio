@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Travel Accommodation Booking Platform",
     description: "Wanderlust is a platform for booking and hosting travel stays.",
-    image: "/projects/project1.png",
+    image: "projects/project1.png",
     tags: ["Node.js", "Express", "ejs"],
     demoUrl: "https://wanderlust-goj2.onrender.com/listings",
     githubUrl: "https://github.com/ThisIsRitika/WanderLust",
@@ -15,7 +15,7 @@ const projects = [
     title: "SaaS Code Editor",
     description:
       "Scriptly is an online code editor for writing, running, and sharing code seamlessly.",
-    image: "/projects/project2.png",
+    image: "projects/project2.png",
     tags: ["React", "Next.js", "Typescript"],
     demoUrl: "https://scriptlyyy.vercel.app/",
     githubUrl: "https://github.com/ThisIsRitika/Scriptlyyy",
@@ -25,7 +25,7 @@ const projects = [
     title: "Personal Portfolio",
     description:
       "A personal portfolio showcasing my skills, projects, and professional experience.",
-    image: "/projects/project3.png",
+    image: "projects/project3.png",
     tags: ["React", "tailwind css"],
     demoUrl: "#",
     githubUrl: "https://github.com/ThisIsRitika/portfolio",
